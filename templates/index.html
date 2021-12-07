@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Flask site</title>
+</head>
+<body>
+    <p>Hello, My World!</p>
+
+    <ul>
+        {% for comment in comments %}
+            <li>{{comment}}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
